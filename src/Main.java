@@ -3,10 +3,6 @@
 // CNA 330
 // Nathan Wick, and Parker Swift, ncwick@student.rtc.edu, pdswift@student.rtc.edu
 
-import com.sun.jdi.Value;
-import com.sun.org.apache.xalan.internal.xsltc.compiler.Variable;
-import jdk.dynalink.beans.StaticClass;
-
 import java.io.Reader;
 import java.util.*;
 import java.sql.*;

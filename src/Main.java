@@ -24,12 +24,10 @@ public class Main {
 //  class Heat extends CPU {}
 
 
-
+// referenced from https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html
   public class LoadDriver {
     public void main(String[] args) {
       try {
-        // The newInstance() call is a work around for some
-        // broken Java implementations
 
         Class.forName("com.mysql.cj.jdbc.Driver");
       } catch (Exception ex) {
